@@ -1,27 +1,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject private var appState: AppState
+
+    let authService: AuthService
+
     var body: some View {
-        NavigationStack {
-            VStack(spacing: 24) {
-                Image(systemName: "mic.circle.fill")
-                    .font(.system(size: 80))
-                    .foregroundStyle(.blue)
-
-                Text("InvoiceAI")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-
-                Text("Proposals and invoices\nby voice.")
-                    .font(.title3)
-                    .foregroundStyle(.secondary)
-                    .multilineTextAlignment(.center)
+        Group {
+            if appState.hasCompletedOnboarding {
+                MainTabView()
+            } else {
+                OnboardingContainerView(authService: authService, appState: appState)
             }
-            .padding()
         }
+        .animation(.easeInOut, value: appState.hasCompletedOnboarding)
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(authService: MockAuthService())
+        .environmentObject(AppState())
 }

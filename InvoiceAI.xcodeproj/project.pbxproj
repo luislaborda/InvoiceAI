@@ -7,68 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		72FD43B2CE3D415EAEAFDBD0 /* InvoiceAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3658A0956C41A59E745C75 /* InvoiceAIApp.swift */; };
-		0939B2415519470791B4C7A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63C5CB3BC34D35B45DFBB7 /* ContentView.swift */; };
-		08E11AC1345B4CBFA326844D /* MoneyAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7753E69B492E461BA928494A /* MoneyAmount.swift */; };
-		108A6EC9B1F7425699AAFE32 /* DocumentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA06E12CF134625AD8C3A61 /* DocumentStatus.swift */; };
-		B4CE113A7AC44C63BB6CD718 /* DocumentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4680540FE18411387C1E2B9 /* DocumentType.swift */; };
-		F6D9B712E15B488F89DC5D9E /* TaxSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B6EFB502DE45EAA151C463 /* TaxSettings.swift */; };
-		3990AA4256DB437A955AA01C /* Discount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366F9BD4EDCA4C109E59FCBB /* Discount.swift */; };
-		E93448F11C53462D96C72EA4 /* PaymentTerms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97E76CC9D84A1883D6FC0F /* PaymentTerms.swift */; };
-		385BFDEDCBBD4323A7124844 /* LineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0880CF6A94E46B998B51BB3 /* LineItem.swift */; };
-		3D318D68FA9B482AB9688B34 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F83654D289427CAF9E9CCD /* Customer.swift */; };
-		2B27B79145BB4EA4B33BA5EF /* JobLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8EB2B5D12B4926A0A378DF /* JobLocation.swift */; };
-		961BB7CC3AA34D36A0F7EFE8 /* Proposal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1726EC23E71942C78DE4D8D8 /* Proposal.swift */; };
-		0720E827E00F49D484614F41 /* Invoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A71ABDD31449CE885C3F78 /* Invoice.swift */; };
-		FE7FFC180208465C904BBC1E /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1030DEDB45594019A047186F /* UserAccount.swift */; };
-		F03BCA39BA974FF7AAADD689 /* BusinessProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A48E21DE794406A054B09A /* BusinessProfile.swift */; };
-		2620B3C734894B5BB4D7DB53 /* SubscriptionPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1049ADF4A04F3196405E9A /* SubscriptionPlan.swift */; };
-		F2F5ADFD0FAF4F278BD09823 /* SubscriptionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DF1E1D65E44CF9F7C18EE /* SubscriptionStatus.swift */; };
-		64099667D97049629D6B4AE9 /* UsageMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75675A91E57C4858BD0F6406 /* UsageMeter.swift */; };
-		FE163D1763B44BCDA6D693E2 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C67B9EC2A84D5DB7FB5CEF /* Document.swift */; };
-		18ECDE161A8D46EC95AE6CD0 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1156D1A3A74CF4A8A852B8 /* SampleData.swift */; };
-		93F2012BBC8242D3BBCF092F /* AIParsingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DEB2DCF22248A6B60EF8F4 /* AIParsingService.swift */; };
-		799C2C4F320F41BFA5C94E2D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B2764BA65946089EB7A7FA /* AuthService.swift */; };
-		67BD7712FAF441438FE58AD7 /* SubscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051A90B90A36422FB6382A2F /* SubscriptionService.swift */; };
-		D75DEB70B65042659179619D /* UsageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF5833DA084F20B28F9000 /* UsageService.swift */; };
-		C671B3070AE9497F9D4E6CF5 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D533A9E796C4F2281EB48C4 /* StorageService.swift */; };
-		A978E19C698341A6A4D73B10 /* PDFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B2A7531FCD4E7F93951350 /* PDFService.swift */; };
-		1FF6720F72114B2AB44B61B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19BB846FDB644BA58719800C /* Assets.xcassets */; };
+		8FD367FECD894B08AAB6C46B /* InvoiceAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E0B2BF3694981A05E939E /* InvoiceAIApp.swift */; };
+		F68E24EB53F1440DA4A43799 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF90E86006943F0B520F572 /* ContentView.swift */; };
+		8BCEF7A3D56A43ADAD6B9825 /* MoneyAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546947AB80DA43ADB53FDDF7 /* MoneyAmount.swift */; };
+		B6B5522F2A61475EBFA72357 /* DocumentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7B50566CB0499BAB7C9CAA /* DocumentStatus.swift */; };
+		3A944B0F77754E94A909A098 /* DocumentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD8C53F55047D1A02D3267 /* DocumentType.swift */; };
+		8E704CF438A2439A81E00C0D /* TaxSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307AB2D53F85468896A62141 /* TaxSettings.swift */; };
+		D1DE72FDFE984D97BFBDFBCA /* Discount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307CC0693C64F6493CC1102 /* Discount.swift */; };
+		EE4236AB50314C06BFFD3EA9 /* PaymentTerms.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4434306E8C4597B90C7E0B /* PaymentTerms.swift */; };
+		017695C4854549C79F589489 /* LineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D58BF07F2D415EAB5771FD /* LineItem.swift */; };
+		12CDE7634D2F49CB938338C7 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D20E1C12746FBBD2D41DA /* Customer.swift */; };
+		2DC2B281BB29421BADE05B50 /* JobLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE57F2E5D28547A9A49E22D3 /* JobLocation.swift */; };
+		D9A4E467340C42938746090D /* Proposal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6AC4FEA2B744F6A9DC89B8 /* Proposal.swift */; };
+		8CF30E8CF4B94DB28738989B /* Invoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B339F44E851B420997B94EF3 /* Invoice.swift */; };
+		989BF5FFADD64330BC66B360 /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D20D18D76D84D2EB048CC93 /* UserAccount.swift */; };
+		7A338D01238442468D77F8FF /* BusinessProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710FEC14D624EFDA118FF93 /* BusinessProfile.swift */; };
+		81DF79F02E9C4D509FD1763F /* SubscriptionPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A23D35136249498FD0C638 /* SubscriptionPlan.swift */; };
+		EEB08F1C6E464808B5117630 /* SubscriptionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B70EECC416E4373822AD3F1 /* SubscriptionStatus.swift */; };
+		7582C65554F34558B371C469 /* UsageMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC03C547F441C8AE5CD44E /* UsageMeter.swift */; };
+		C109DB4616CA403D87E49EE6 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF250C701044C49B723AE2 /* Document.swift */; };
+		8B0C340233614585BA03D181 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EABAB8B507449D814759D1 /* SampleData.swift */; };
+		8D3E5409169C4ED291003E55 /* AIParsingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1323A9E8D814CD19A940F64 /* AIParsingService.swift */; };
+		21BEC661216F4A13B7D025C5 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F1DD6CCA6D4700821E5D7A /* AuthService.swift */; };
+		1C63D476C0DA450D9F75B404 /* MockAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96320DFEF2654E9483B08E23 /* MockAuthService.swift */; };
+		FDA840B4424A4DFE963473D9 /* SubscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D862B2F4974272A4F6D39D /* SubscriptionService.swift */; };
+		554CB8C64AA84855894F2BFB /* UsageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB1D14E1714D7094C3799F /* UsageService.swift */; };
+		879498D39D6643049F5A80FD /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3DCA714F7D491F87FF442B /* StorageService.swift */; };
+		8775416EE2A745FB986C7FC1 /* PDFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F0310BE38145B58A58527C /* PDFService.swift */; };
+		308F161F3E464FCF9F642C3F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10457DCDE6C8420F98BD16D8 /* AppState.swift */; };
+		8D011B0D5CCB45EA94D943BB /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB8B1F21194D78BAA01AFA /* OnboardingViewModel.swift */; };
+		600D0E12924A41EA96059E34 /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F552C2FEE84D4364B7211DED /* FormField.swift */; };
+		06482EA75186490EAF51BAED /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C21E86B0F84AD5A8B8BAA8 /* MainTabView.swift */; };
+		D7990597E073499E98D19A4B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F88D5DAD749C586DC6694 /* WelcomeView.swift */; };
+		EF81039E3D274ABAB339E3A5 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E148A905B64239B475AA7B /* CreateAccountView.swift */; };
+		E0927DA0E64E493095BA9B78 /* BusinessProfileSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC46A0F66764CFFB5F1232C /* BusinessProfileSetupView.swift */; };
+		EA3C92BC115E4E16A9E4C89A /* TaxSettingsSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D42AE6F31D4A4FA41A4C34 /* TaxSettingsSetupView.swift */; };
+		0266C44EA76640DB91364F48 /* PaymentTermsSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A197496B98491F90A5E2BD /* PaymentTermsSetupView.swift */; };
+		1E038B71D3E441E388514512 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F34A0D2376415DBF8031F0 /* OnboardingContainerView.swift */; };
+		3D1FFF7CA3BC43FD974F1C44 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35523F8D744DD4ABB4DA73 /* HomeView.swift */; };
+		973EDA7679CF446DB01A91F8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9985A0F9A6434DFD851A123E /* SettingsView.swift */; };
+		3AF482BEA6594EE0AEFBA7D0 /* BusinessProfileEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008D4372521545988DA6BA7B /* BusinessProfileEditView.swift */; };
+		CA9D1C52ABE447CAB29CB4CE /* TaxSettingsEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592A1C8DBB4945EBA7B69EF6 /* TaxSettingsEditView.swift */; };
+		25D675EA4DD74724805EB4F8 /* PaymentTermsEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F15906F2D64C148D21D076 /* PaymentTermsEditView.swift */; };
+		1D43223F8FF640A7AA6CE903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD08987944FD4D728211E683 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BC3658A0956C41A59E745C75 /* InvoiceAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceAIApp.swift; sourceTree = "<group>"; };
-		DB63C5CB3BC34D35B45DFBB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7753E69B492E461BA928494A /* MoneyAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyAmount.swift; sourceTree = "<group>"; };
-		9AA06E12CF134625AD8C3A61 /* DocumentStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentStatus.swift; sourceTree = "<group>"; };
-		F4680540FE18411387C1E2B9 /* DocumentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentType.swift; sourceTree = "<group>"; };
-		80B6EFB502DE45EAA151C463 /* TaxSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxSettings.swift; sourceTree = "<group>"; };
-		366F9BD4EDCA4C109E59FCBB /* Discount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discount.swift; sourceTree = "<group>"; };
-		5D97E76CC9D84A1883D6FC0F /* PaymentTerms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTerms.swift; sourceTree = "<group>"; };
-		B0880CF6A94E46B998B51BB3 /* LineItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineItem.swift; sourceTree = "<group>"; };
-		31F83654D289427CAF9E9CCD /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
-		CA8EB2B5D12B4926A0A378DF /* JobLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobLocation.swift; sourceTree = "<group>"; };
-		1726EC23E71942C78DE4D8D8 /* Proposal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proposal.swift; sourceTree = "<group>"; };
-		71A71ABDD31449CE885C3F78 /* Invoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invoice.swift; sourceTree = "<group>"; };
-		1030DEDB45594019A047186F /* UserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
-		25A48E21DE794406A054B09A /* BusinessProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessProfile.swift; sourceTree = "<group>"; };
-		3F1049ADF4A04F3196405E9A /* SubscriptionPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPlan.swift; sourceTree = "<group>"; };
-		8B0DF1E1D65E44CF9F7C18EE /* SubscriptionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionStatus.swift; sourceTree = "<group>"; };
-		75675A91E57C4858BD0F6406 /* UsageMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageMeter.swift; sourceTree = "<group>"; };
-		34C67B9EC2A84D5DB7FB5CEF /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
-		5D1156D1A3A74CF4A8A852B8 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
-		B7DEB2DCF22248A6B60EF8F4 /* AIParsingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIParsingService.swift; sourceTree = "<group>"; };
-		05B2764BA65946089EB7A7FA /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
-		051A90B90A36422FB6382A2F /* SubscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionService.swift; sourceTree = "<group>"; };
-		44CF5833DA084F20B28F9000 /* UsageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageService.swift; sourceTree = "<group>"; };
-		0D533A9E796C4F2281EB48C4 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
-		A8B2A7531FCD4E7F93951350 /* PDFService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFService.swift; sourceTree = "<group>"; };
-		19BB846FDB644BA58719800C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D67A5555E50A4390909B7D2D /* InvoiceAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvoiceAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6E0B2BF3694981A05E939E /* InvoiceAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceAIApp.swift; sourceTree = "<group>"; };
+		3EF90E86006943F0B520F572 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		546947AB80DA43ADB53FDDF7 /* MoneyAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyAmount.swift; sourceTree = "<group>"; };
+		3B7B50566CB0499BAB7C9CAA /* DocumentStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentStatus.swift; sourceTree = "<group>"; };
+		51CD8C53F55047D1A02D3267 /* DocumentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentType.swift; sourceTree = "<group>"; };
+		307AB2D53F85468896A62141 /* TaxSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxSettings.swift; sourceTree = "<group>"; };
+		4307CC0693C64F6493CC1102 /* Discount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discount.swift; sourceTree = "<group>"; };
+		AC4434306E8C4597B90C7E0B /* PaymentTerms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTerms.swift; sourceTree = "<group>"; };
+		61D58BF07F2D415EAB5771FD /* LineItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineItem.swift; sourceTree = "<group>"; };
+		586D20E1C12746FBBD2D41DA /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		DE57F2E5D28547A9A49E22D3 /* JobLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobLocation.swift; sourceTree = "<group>"; };
+		DA6AC4FEA2B744F6A9DC89B8 /* Proposal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proposal.swift; sourceTree = "<group>"; };
+		B339F44E851B420997B94EF3 /* Invoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invoice.swift; sourceTree = "<group>"; };
+		5D20D18D76D84D2EB048CC93 /* UserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		6710FEC14D624EFDA118FF93 /* BusinessProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessProfile.swift; sourceTree = "<group>"; };
+		99A23D35136249498FD0C638 /* SubscriptionPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPlan.swift; sourceTree = "<group>"; };
+		7B70EECC416E4373822AD3F1 /* SubscriptionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionStatus.swift; sourceTree = "<group>"; };
+		21FC03C547F441C8AE5CD44E /* UsageMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageMeter.swift; sourceTree = "<group>"; };
+		63AF250C701044C49B723AE2 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		D5EABAB8B507449D814759D1 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		B1323A9E8D814CD19A940F64 /* AIParsingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIParsingService.swift; sourceTree = "<group>"; };
+		56F1DD6CCA6D4700821E5D7A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		96320DFEF2654E9483B08E23 /* MockAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthService.swift; sourceTree = "<group>"; };
+		74D862B2F4974272A4F6D39D /* SubscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionService.swift; sourceTree = "<group>"; };
+		A3DB1D14E1714D7094C3799F /* UsageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageService.swift; sourceTree = "<group>"; };
+		2C3DCA714F7D491F87FF442B /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		01F0310BE38145B58A58527C /* PDFService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFService.swift; sourceTree = "<group>"; };
+		10457DCDE6C8420F98BD16D8 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		1CBB8B1F21194D78BAA01AFA /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		F552C2FEE84D4364B7211DED /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		16C21E86B0F84AD5A8B8BAA8 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		1E5F88D5DAD749C586DC6694 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		E8E148A905B64239B475AA7B /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		0FC46A0F66764CFFB5F1232C /* BusinessProfileSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessProfileSetupView.swift; sourceTree = "<group>"; };
+		02D42AE6F31D4A4FA41A4C34 /* TaxSettingsSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxSettingsSetupView.swift; sourceTree = "<group>"; };
+		98A197496B98491F90A5E2BD /* PaymentTermsSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTermsSetupView.swift; sourceTree = "<group>"; };
+		B0F34A0D2376415DBF8031F0 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		9C35523F8D744DD4ABB4DA73 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9985A0F9A6434DFD851A123E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		008D4372521545988DA6BA7B /* BusinessProfileEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessProfileEditView.swift; sourceTree = "<group>"; };
+		592A1C8DBB4945EBA7B69EF6 /* TaxSettingsEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxSettingsEditView.swift; sourceTree = "<group>"; };
+		E1F15906F2D64C148D21D076 /* PaymentTermsEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTermsEditView.swift; sourceTree = "<group>"; };
+		FD08987944FD4D728211E683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBB34C11C90340C5AF9C5086 /* InvoiceAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvoiceAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F83243BD91DD429395A6E742 /* Frameworks */ = {
+		F4998A9B017D486FB260502D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,180 +110,220 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1DBE034223B6404C9FE8309B = {
+		42B5E24CF2F64A9D9E267F2F /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				E06FB4C2393F4AB4AD26C33E /* InvoiceAI */,
-				67A75E47E97946A0B1C336A1 /* Products */,
-				CE43EDB7CC8F430A9F5DECB5 /* Frameworks */,
+				F4D373A74DCB4C12B73868B5 /* InvoiceAI */,
+				64884176A5D240B19F8C1C9A /* Products */,
+				D90A03D69F504D8CA80540A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		67A75E47E97946A0B1C336A1 /* Products */ = {
+		64884176A5D240B19F8C1C9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D67A5555E50A4390909B7D2D /* InvoiceAI.app */,
+				BBB34C11C90340C5AF9C5086 /* InvoiceAI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE43EDB7CC8F430A9F5DECB5 /* Frameworks */ = {
+		D90A03D69F504D8CA80540A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E06FB4C2393F4AB4AD26C33E /* InvoiceAI */ = {
+		F4D373A74DCB4C12B73868B5 /* InvoiceAI */ = {
 			isa = PBXGroup;
 			children = (
-				8494FC15D66642CDA9008ED0 /* App */,
-				D35CB04DAB904A6785266C53 /* Models */,
-				AC93CEC975F64EBD9042BCAC /* Views */,
-				9BEF89BD0DF447A1BD1CF6D5 /* ViewModels */,
-				FF5C0CBDBDCF4C388D3895E5 /* Services */,
-				8488B5A22D1649F8B0BE432F /* DesignSystem */,
-				8CCC18ACE1F04F94AB63102A /* Utilities */,
-				41ACFD68D65E43EA8A70A365 /* Preview Content */,
-				19BB846FDB644BA58719800C /* Assets.xcassets */,
+				3877D42C935E4D1A9452B03D /* App */,
+				428E473ECDF241CFA79489BB /* Models */,
+				EAE9B1E2C46C486CA6AE9FEA /* Views */,
+				1A1220A666434AB8A985A767 /* ViewModels */,
+				CAC6E634297D4DC1ADD2AC77 /* Services */,
+				541093D349B54E7CAE12C947 /* DesignSystem */,
+				B957D8E939204A7A8160418E /* Utilities */,
+				A4CD9C2014984FC69C2B8B27 /* Preview Content */,
+				FD08987944FD4D728211E683 /* Assets.xcassets */,
 			);
 			path = InvoiceAI;
 			sourceTree = "<group>";
 		};
-		8494FC15D66642CDA9008ED0 /* App */ = {
+		3877D42C935E4D1A9452B03D /* App */ = {
 			isa = PBXGroup;
 			children = (
-				BC3658A0956C41A59E745C75 /* InvoiceAIApp.swift */,
-				DB63C5CB3BC34D35B45DFBB7 /* ContentView.swift */,
+				8E6E0B2BF3694981A05E939E /* InvoiceAIApp.swift */,
+				3EF90E86006943F0B520F572 /* ContentView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		D35CB04DAB904A6785266C53 /* Models */ = {
+		428E473ECDF241CFA79489BB /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				7753E69B492E461BA928494A /* MoneyAmount.swift */,
-				9AA06E12CF134625AD8C3A61 /* DocumentStatus.swift */,
-				F4680540FE18411387C1E2B9 /* DocumentType.swift */,
-				80B6EFB502DE45EAA151C463 /* TaxSettings.swift */,
-				366F9BD4EDCA4C109E59FCBB /* Discount.swift */,
-				5D97E76CC9D84A1883D6FC0F /* PaymentTerms.swift */,
-				B0880CF6A94E46B998B51BB3 /* LineItem.swift */,
-				31F83654D289427CAF9E9CCD /* Customer.swift */,
-				CA8EB2B5D12B4926A0A378DF /* JobLocation.swift */,
-				1726EC23E71942C78DE4D8D8 /* Proposal.swift */,
-				71A71ABDD31449CE885C3F78 /* Invoice.swift */,
-				1030DEDB45594019A047186F /* UserAccount.swift */,
-				25A48E21DE794406A054B09A /* BusinessProfile.swift */,
-				3F1049ADF4A04F3196405E9A /* SubscriptionPlan.swift */,
-				8B0DF1E1D65E44CF9F7C18EE /* SubscriptionStatus.swift */,
-				75675A91E57C4858BD0F6406 /* UsageMeter.swift */,
-				34C67B9EC2A84D5DB7FB5CEF /* Document.swift */,
+				546947AB80DA43ADB53FDDF7 /* MoneyAmount.swift */,
+				3B7B50566CB0499BAB7C9CAA /* DocumentStatus.swift */,
+				51CD8C53F55047D1A02D3267 /* DocumentType.swift */,
+				307AB2D53F85468896A62141 /* TaxSettings.swift */,
+				4307CC0693C64F6493CC1102 /* Discount.swift */,
+				AC4434306E8C4597B90C7E0B /* PaymentTerms.swift */,
+				61D58BF07F2D415EAB5771FD /* LineItem.swift */,
+				586D20E1C12746FBBD2D41DA /* Customer.swift */,
+				DE57F2E5D28547A9A49E22D3 /* JobLocation.swift */,
+				DA6AC4FEA2B744F6A9DC89B8 /* Proposal.swift */,
+				B339F44E851B420997B94EF3 /* Invoice.swift */,
+				5D20D18D76D84D2EB048CC93 /* UserAccount.swift */,
+				6710FEC14D624EFDA118FF93 /* BusinessProfile.swift */,
+				99A23D35136249498FD0C638 /* SubscriptionPlan.swift */,
+				7B70EECC416E4373822AD3F1 /* SubscriptionStatus.swift */,
+				21FC03C547F441C8AE5CD44E /* UsageMeter.swift */,
+				63AF250C701044C49B723AE2 /* Document.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		AC93CEC975F64EBD9042BCAC /* Views */ = {
+		EAE9B1E2C46C486CA6AE9FEA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7EF8B93531F14D888F8A425D /* Onboarding */,
+				C3A697AC65C64361B27BDEEB /* Home */,
+				EDFA0341412241D7917716E3 /* Settings */,
+				16C21E86B0F84AD5A8B8BAA8 /* MainTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		9BEF89BD0DF447A1BD1CF6D5 /* ViewModels */ = {
+		7EF8B93531F14D888F8A425D /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				1E5F88D5DAD749C586DC6694 /* WelcomeView.swift */,
+				E8E148A905B64239B475AA7B /* CreateAccountView.swift */,
+				0FC46A0F66764CFFB5F1232C /* BusinessProfileSetupView.swift */,
+				02D42AE6F31D4A4FA41A4C34 /* TaxSettingsSetupView.swift */,
+				98A197496B98491F90A5E2BD /* PaymentTermsSetupView.swift */,
+				B0F34A0D2376415DBF8031F0 /* OnboardingContainerView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C3A697AC65C64361B27BDEEB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9C35523F8D744DD4ABB4DA73 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EDFA0341412241D7917716E3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9985A0F9A6434DFD851A123E /* SettingsView.swift */,
+				008D4372521545988DA6BA7B /* BusinessProfileEditView.swift */,
+				592A1C8DBB4945EBA7B69EF6 /* TaxSettingsEditView.swift */,
+				E1F15906F2D64C148D21D076 /* PaymentTermsEditView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1A1220A666434AB8A985A767 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				10457DCDE6C8420F98BD16D8 /* AppState.swift */,
+				1CBB8B1F21194D78BAA01AFA /* OnboardingViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		FF5C0CBDBDCF4C388D3895E5 /* Services */ = {
+		CAC6E634297D4DC1ADD2AC77 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				5463203CDC69443E9D6D1D96 /* AI */,
-				C6125F9622C240AB89420E4B /* Auth */,
-				6CAE5C917195473CA3D2CE6E /* Subscription */,
-				D9EF8A4C21404FD885F6587D /* Usage */,
-				2132C595E1F24CD6B5BFDA17 /* PDF */,
-				F9AC8DFE733E4288A42E4816 /* Storage */,
-				9EB4BF19A5D946D786272ED9 /* Location */,
+				4EF4B8CDBE6F45F9A7137E68 /* AI */,
+				72212DADA8BA4DA9A4DFF652 /* Auth */,
+				DF8F8692224540F3A815230A /* Subscription */,
+				3055DD4188B4464790168829 /* Usage */,
+				F67D137357D24EB3AA9485E9 /* PDF */,
+				151F877D8FA740B0ACF351E5 /* Storage */,
+				476D67F37CA84647B7634149 /* Location */,
 			);
 			path = Services;
 			sourceTree = "<group>";
 		};
-		5463203CDC69443E9D6D1D96 /* AI */ = {
+		4EF4B8CDBE6F45F9A7137E68 /* AI */ = {
 			isa = PBXGroup;
 			children = (
-				B7DEB2DCF22248A6B60EF8F4 /* AIParsingService.swift */,
+				B1323A9E8D814CD19A940F64 /* AIParsingService.swift */,
 			);
 			path = AI;
 			sourceTree = "<group>";
 		};
-		C6125F9622C240AB89420E4B /* Auth */ = {
+		72212DADA8BA4DA9A4DFF652 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				05B2764BA65946089EB7A7FA /* AuthService.swift */,
+				56F1DD6CCA6D4700821E5D7A /* AuthService.swift */,
+				96320DFEF2654E9483B08E23 /* MockAuthService.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
 		};
-		6CAE5C917195473CA3D2CE6E /* Subscription */ = {
+		DF8F8692224540F3A815230A /* Subscription */ = {
 			isa = PBXGroup;
 			children = (
-				051A90B90A36422FB6382A2F /* SubscriptionService.swift */,
+				74D862B2F4974272A4F6D39D /* SubscriptionService.swift */,
 			);
 			path = Subscription;
 			sourceTree = "<group>";
 		};
-		D9EF8A4C21404FD885F6587D /* Usage */ = {
+		3055DD4188B4464790168829 /* Usage */ = {
 			isa = PBXGroup;
 			children = (
-				44CF5833DA084F20B28F9000 /* UsageService.swift */,
+				A3DB1D14E1714D7094C3799F /* UsageService.swift */,
 			);
 			path = Usage;
 			sourceTree = "<group>";
 		};
-		2132C595E1F24CD6B5BFDA17 /* PDF */ = {
+		F67D137357D24EB3AA9485E9 /* PDF */ = {
 			isa = PBXGroup;
 			children = (
-				A8B2A7531FCD4E7F93951350 /* PDFService.swift */,
+				01F0310BE38145B58A58527C /* PDFService.swift */,
 			);
 			path = PDF;
 			sourceTree = "<group>";
 		};
-		F9AC8DFE733E4288A42E4816 /* Storage */ = {
+		151F877D8FA740B0ACF351E5 /* Storage */ = {
 			isa = PBXGroup;
 			children = (
-				0D533A9E796C4F2281EB48C4 /* StorageService.swift */,
+				2C3DCA714F7D491F87FF442B /* StorageService.swift */,
 			);
 			path = Storage;
 			sourceTree = "<group>";
 		};
-		9EB4BF19A5D946D786272ED9 /* Location */ = {
+		476D67F37CA84647B7634149 /* Location */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Location;
 			sourceTree = "<group>";
 		};
-		8488B5A22D1649F8B0BE432F /* DesignSystem */ = {
+		541093D349B54E7CAE12C947 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
+				F552C2FEE84D4364B7211DED /* FormField.swift */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
 		};
-		8CCC18ACE1F04F94AB63102A /* Utilities */ = {
+		B957D8E939204A7A8160418E /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		41ACFD68D65E43EA8A70A365 /* Preview Content */ = {
+		A4CD9C2014984FC69C2B8B27 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				5D1156D1A3A74CF4A8A852B8 /* SampleData.swift */,
+				D5EABAB8B507449D814759D1 /* SampleData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -259,13 +331,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4982AC481494454B0717776 /* InvoiceAI */ = {
+		9605461592684DC5BF9865C2 /* InvoiceAI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A95649D688A46A9A0B44CF0 /* Build configuration list for PBXNativeTarget "InvoiceAI" */;
+			buildConfigurationList = 1AD3B9B1207B45E0B7067CDC /* Build configuration list for PBXNativeTarget "InvoiceAI" */;
 			buildPhases = (
-				05B01C1F75E04A918A03A8C7 /* Sources */,
-				F83243BD91DD429395A6E742 /* Frameworks */,
-				84D2DC47489945EE9D9F40AE /* Resources */,
+				AD6CF747102A45A38A70C92E /* Sources */,
+				F4998A9B017D486FB260502D /* Frameworks */,
+				8CA611C2E67F4E7E8B7E7AB9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -273,15 +345,15 @@
 			);
 			name = InvoiceAI;
 			productName = InvoiceAI;
-			productReference = D67A5555E50A4390909B7D2D /* InvoiceAI.app */;
+			productReference = BBB34C11C90340C5AF9C5086 /* InvoiceAI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		85428C958A6D47E0872F0D18 /* Project object */ = {
+		BB47AFD5123A4757B4EAE787 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = EE80842D071D42758B6A3352 /* Build configuration list for PBXProject "InvoiceAI" */;
+			buildConfigurationList = 5D3E6CE7D4E34D0CB3888197 /* Build configuration list for PBXProject "InvoiceAI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -289,86 +361,105 @@
 				en,
 				Base,
 			);
-			mainGroup = 1DBE034223B6404C9FE8309B;
-			productRefGroup = 67A75E47E97946A0B1C336A1 /* Products */;
+			mainGroup = 42B5E24CF2F64A9D9E267F2F;
+			productRefGroup = 64884176A5D240B19F8C1C9A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4982AC481494454B0717776 /* InvoiceAI */,
+				9605461592684DC5BF9865C2 /* InvoiceAI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84D2DC47489945EE9D9F40AE /* Resources */ = {
+		8CA611C2E67F4E7E8B7E7AB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF6720F72114B2AB44B61B0 /* Assets.xcassets in Resources */,
+				1D43223F8FF640A7AA6CE903 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05B01C1F75E04A918A03A8C7 /* Sources */ = {
+		AD6CF747102A45A38A70C92E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72FD43B2CE3D415EAEAFDBD0 /* InvoiceAIApp.swift in Sources */,
-				0939B2415519470791B4C7A9 /* ContentView.swift in Sources */,
-				08E11AC1345B4CBFA326844D /* MoneyAmount.swift in Sources */,
-				108A6EC9B1F7425699AAFE32 /* DocumentStatus.swift in Sources */,
-				B4CE113A7AC44C63BB6CD718 /* DocumentType.swift in Sources */,
-				F6D9B712E15B488F89DC5D9E /* TaxSettings.swift in Sources */,
-				3990AA4256DB437A955AA01C /* Discount.swift in Sources */,
-				E93448F11C53462D96C72EA4 /* PaymentTerms.swift in Sources */,
-				385BFDEDCBBD4323A7124844 /* LineItem.swift in Sources */,
-				3D318D68FA9B482AB9688B34 /* Customer.swift in Sources */,
-				2B27B79145BB4EA4B33BA5EF /* JobLocation.swift in Sources */,
-				961BB7CC3AA34D36A0F7EFE8 /* Proposal.swift in Sources */,
-				0720E827E00F49D484614F41 /* Invoice.swift in Sources */,
-				FE7FFC180208465C904BBC1E /* UserAccount.swift in Sources */,
-				F03BCA39BA974FF7AAADD689 /* BusinessProfile.swift in Sources */,
-				2620B3C734894B5BB4D7DB53 /* SubscriptionPlan.swift in Sources */,
-				F2F5ADFD0FAF4F278BD09823 /* SubscriptionStatus.swift in Sources */,
-				64099667D97049629D6B4AE9 /* UsageMeter.swift in Sources */,
-				FE163D1763B44BCDA6D693E2 /* Document.swift in Sources */,
-				18ECDE161A8D46EC95AE6CD0 /* SampleData.swift in Sources */,
-				93F2012BBC8242D3BBCF092F /* AIParsingService.swift in Sources */,
-				799C2C4F320F41BFA5C94E2D /* AuthService.swift in Sources */,
-				67BD7712FAF441438FE58AD7 /* SubscriptionService.swift in Sources */,
-				D75DEB70B65042659179619D /* UsageService.swift in Sources */,
-				C671B3070AE9497F9D4E6CF5 /* StorageService.swift in Sources */,
-				A978E19C698341A6A4D73B10 /* PDFService.swift in Sources */,
+				8FD367FECD894B08AAB6C46B /* InvoiceAIApp.swift in Sources */,
+				F68E24EB53F1440DA4A43799 /* ContentView.swift in Sources */,
+				8BCEF7A3D56A43ADAD6B9825 /* MoneyAmount.swift in Sources */,
+				B6B5522F2A61475EBFA72357 /* DocumentStatus.swift in Sources */,
+				3A944B0F77754E94A909A098 /* DocumentType.swift in Sources */,
+				8E704CF438A2439A81E00C0D /* TaxSettings.swift in Sources */,
+				D1DE72FDFE984D97BFBDFBCA /* Discount.swift in Sources */,
+				EE4236AB50314C06BFFD3EA9 /* PaymentTerms.swift in Sources */,
+				017695C4854549C79F589489 /* LineItem.swift in Sources */,
+				12CDE7634D2F49CB938338C7 /* Customer.swift in Sources */,
+				2DC2B281BB29421BADE05B50 /* JobLocation.swift in Sources */,
+				D9A4E467340C42938746090D /* Proposal.swift in Sources */,
+				8CF30E8CF4B94DB28738989B /* Invoice.swift in Sources */,
+				989BF5FFADD64330BC66B360 /* UserAccount.swift in Sources */,
+				7A338D01238442468D77F8FF /* BusinessProfile.swift in Sources */,
+				81DF79F02E9C4D509FD1763F /* SubscriptionPlan.swift in Sources */,
+				EEB08F1C6E464808B5117630 /* SubscriptionStatus.swift in Sources */,
+				7582C65554F34558B371C469 /* UsageMeter.swift in Sources */,
+				C109DB4616CA403D87E49EE6 /* Document.swift in Sources */,
+				8B0C340233614585BA03D181 /* SampleData.swift in Sources */,
+				8D3E5409169C4ED291003E55 /* AIParsingService.swift in Sources */,
+				21BEC661216F4A13B7D025C5 /* AuthService.swift in Sources */,
+				1C63D476C0DA450D9F75B404 /* MockAuthService.swift in Sources */,
+				FDA840B4424A4DFE963473D9 /* SubscriptionService.swift in Sources */,
+				554CB8C64AA84855894F2BFB /* UsageService.swift in Sources */,
+				879498D39D6643049F5A80FD /* StorageService.swift in Sources */,
+				8775416EE2A745FB986C7FC1 /* PDFService.swift in Sources */,
+				308F161F3E464FCF9F642C3F /* AppState.swift in Sources */,
+				8D011B0D5CCB45EA94D943BB /* OnboardingViewModel.swift in Sources */,
+				600D0E12924A41EA96059E34 /* FormField.swift in Sources */,
+				06482EA75186490EAF51BAED /* MainTabView.swift in Sources */,
+				D7990597E073499E98D19A4B /* WelcomeView.swift in Sources */,
+				EF81039E3D274ABAB339E3A5 /* CreateAccountView.swift in Sources */,
+				E0927DA0E64E493095BA9B78 /* BusinessProfileSetupView.swift in Sources */,
+				EA3C92BC115E4E16A9E4C89A /* TaxSettingsSetupView.swift in Sources */,
+				0266C44EA76640DB91364F48 /* PaymentTermsSetupView.swift in Sources */,
+				1E038B71D3E441E388514512 /* OnboardingContainerView.swift in Sources */,
+				3D1FFF7CA3BC43FD974F1C44 /* HomeView.swift in Sources */,
+				973EDA7679CF446DB01A91F8 /* SettingsView.swift in Sources */,
+				3AF482BEA6594EE0AEFBA7D0 /* BusinessProfileEditView.swift in Sources */,
+				CA9D1C52ABE447CAB29CB4CE /* TaxSettingsEditView.swift in Sources */,
+				25D675EA4DD74724805EB4F8 /* PaymentTermsEditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		616C7359C6CB4F3ABE038F81 /* Debug */ = {
+		E444ABCB897F455B8E70FCE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASLR = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -376,20 +467,15 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		0F20EF9398BB43BC9BC7422E /* Release */ = {
+		359CAC3135354DA49801B4ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASLR = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
@@ -397,6 +483,9 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -408,22 +497,19 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		6C531A07054F40788BA6BC85 /* Debug */ = {
+		E827036828F04B8E81D5596E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = ""InvoiceAI/Preview Content"";
+				DEVELOPMENT_ASSET_PATHS = "\"InvoiceAI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = InvoiceAI;
@@ -449,14 +535,14 @@
 			};
 			name = Debug;
 		};
-		EC96F601DBD2489FB108700D /* Release */ = {
+		8ADD8714BEEA4FB7959451E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = ""InvoiceAI/Preview Content"";
+				DEVELOPMENT_ASSET_PATHS = "\"InvoiceAI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = InvoiceAI;
@@ -485,20 +571,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE80842D071D42758B6A3352 /* Build configuration list for PBXProject "InvoiceAI" */ = {
+		5D3E6CE7D4E34D0CB3888197 /* Build configuration list for PBXProject "InvoiceAI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				616C7359C6CB4F3ABE038F81 /* Debug */,
-				0F20EF9398BB43BC9BC7422E /* Release */,
+				E444ABCB897F455B8E70FCE5 /* Debug */,
+				359CAC3135354DA49801B4ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A95649D688A46A9A0B44CF0 /* Build configuration list for PBXNativeTarget "InvoiceAI" */ = {
+		1AD3B9B1207B45E0B7067CDC /* Build configuration list for PBXNativeTarget "InvoiceAI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C531A07054F40788BA6BC85 /* Debug */,
-				EC96F601DBD2489FB108700D /* Release */,
+				E827036828F04B8E81D5596E /* Debug */,
+				8ADD8714BEEA4FB7959451E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -506,5 +592,5 @@
 /* End XCConfigurationList section */
 
 	};
-	rootObject = 85428C958A6D47E0872F0D18 /* Project object */;
+	rootObject = BB47AFD5123A4757B4EAE787 /* Project object */;
 }
